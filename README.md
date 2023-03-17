@@ -31,8 +31,10 @@ The application will output the total SS and the matching between shipment desti
 ## Running Tests
 
 To run the Jest tests, use the following command:
+
 -npm test
 To run the Jest tests in a continuous fashion(as in, for dev purposes, with hot reload), you can run the following command:
+
 -npm run testdev
 
 ## Assumptions
@@ -42,3 +44,4 @@ The following assumptions were made during the development of this application:
 1. The algorithm does not take into account numbers or special characters in street names or driver names. It only considers alphabetic characters. This also makes it so that street name lengths and driver name lengths are calculated without spaces or numbers.
 2. This algorithm does not always guarantee the best possible SS, as it employs a tiebreaker strategy to resolve SS ties, which simplifies the problem at the cost of potentially missing the optimal solution. This decision was made to avoid a recursive approach, which would lead to significant performance issues for larger datasets.
 3. The time complexity of the current solution is O(n^2 * log n), where n is the number of drivers (or shipments). This complexity is mainly due to the generation and sorting of the SS list.
+4. There was an attempt to utilize a recursive algoritm, in order to do proper tiebreakers(go back to the remaining entirety of the list on a given tie, and determine whether or not to pick one candidate for a given spot). But, given that its time complexity depended on the amount of possible permutations O(n! * n), it was scrapped, as it would struggle with just 10-12 combinations
