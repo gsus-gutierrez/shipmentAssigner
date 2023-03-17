@@ -7,7 +7,7 @@ Shipment Assigner is a command line application that assigns shipment destinatio
 Before you begin, ensure you have met the following requirements:
 
 * You have installed Node.js (version 12 or newer)
-* You have a code editor, such as Visual Studio Code or Sublime Text
+* You have a code editor, such as Visual Studio Code, Atom, Vim, Sublime Text
 
 ## Setup
 
