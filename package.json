@@ -1,0 +1,17 @@
+{
+  "name": "shipmentassigner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "shipmentAssigner.js",
+  "scripts": {
+    "test": "jest",
+    "testDev": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "jest": {},
+  "type": "commonjs"
+}
