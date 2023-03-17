@@ -22,7 +22,8 @@ https://github.com/gsus-gutierrez/shipmentAssigner
 ## Running the Application
 
 To run the application, use the following command:
--node main.js <street_addresses_file> <driver_names_file>
+
+-node index.js <street_addresses_file> <driver_names_file>
 Replace `<street_addresses_file>` and `<driver_names_file>` with the paths to the input files containing street addresses and driver names, respectively.
 
 The application will output the total SS and the matching between shipment destinations and drivers.
