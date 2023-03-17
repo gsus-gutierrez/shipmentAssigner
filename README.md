@@ -32,7 +32,8 @@ The application will output the total SS and the matching between shipment desti
 
 To run the Jest tests, use the following command:
 -npm test
-
+To run the Jest tests in a continuous fashion(as in, for dev purposes, with hot reload), you can run the following command:
+-npm run testdev
 
 ## Assumptions
 
