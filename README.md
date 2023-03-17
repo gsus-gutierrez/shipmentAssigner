@@ -14,7 +14,7 @@ Before you begin, ensure you have met the following requirements:
 To install the necessary dependencies, follow these steps:
 
 1. Clone the repository:
-
+https://github.com/gsus-gutierrez/shipmentAssigner
 2. Change to the project directory:
 -cd shipment-assigner
 3. Install the dependencies(which, in reality, are not needed other than core NodeJS, the dependencies are only there to run the tests):
